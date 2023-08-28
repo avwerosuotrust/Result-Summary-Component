@@ -14,6 +14,7 @@ h1{
     opacity: 0.9;
 }
 
+
 .first-container{
     display: flex;
     flex-direction: column;
@@ -23,8 +24,8 @@ h1{
     background-image: linear-gradient(rgb(110, 110, 241), rgb(44, 44, 247), rgb(3, 3, 134));
     color: white;
     text-align: center;
-    width: 35%;
-    height: 95vh;
+    width: 420px;
+    height: 550px;
 }
  
   
@@ -63,17 +64,18 @@ h1{
   
 .second-container{
     background-color: whitesmoke;
-    width: 35%;
-    height: 95vh;
+    width: 420px;
+    height: 550px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .mini-container{
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -82,7 +84,7 @@ h1{
     font-size: 30px;
     font-weight: 700;
     color: black;
-    padding: 20px;
+    padding: 5px;
 }
 
 .red{
