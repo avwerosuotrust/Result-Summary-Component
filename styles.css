@@ -8,12 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh;
 }
 
 h1{
     opacity: 0.9;
 }
-
 
 .first-container{
     display: flex;
@@ -25,7 +25,7 @@ h1{
     color: white;
     text-align: center;
     width: 420px;
-    height: 550px;
+    height: 560px;
 }
  
   
@@ -65,7 +65,7 @@ h1{
 .second-container{
     background-color: whitesmoke;
     width: 420px;
-    height: 550px;
+    height: 560px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 5px;
@@ -81,6 +81,8 @@ h1{
 }
 
 .summary{
+    width: 50%;
+    text-align: center;
     font-size: 30px;
     font-weight: 700;
     color: black;
