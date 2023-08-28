@@ -171,6 +171,9 @@ h1{
     padding: 5px;
 }
 
+a{
+    text-decoration: none;
+
 .button{
     padding: 20px;
     background-color:rgb(15, 2, 66);
